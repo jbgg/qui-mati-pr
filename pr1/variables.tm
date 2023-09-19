@@ -4,8 +4,8 @@
 
 Las variables en los lenguajes de programación
 sirven para almacenar información, y así se puede
-recuperar posteriormente haciendo referencia a la
-variables.
+recuperar el valor posteriormente haciendo referencia a la
+variable.
 Las variables se identifican con un nombre.
 Veamos como definir una variable.
 
