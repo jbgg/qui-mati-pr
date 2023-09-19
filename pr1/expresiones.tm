@@ -6,7 +6,7 @@ Una expresión algebraica es una expresión donde pueden
 aparecer variables.
 Una misma expresión puede escribirse de varias maneras
 ya que existen propiedades que nos aseguran identidades,
-las propiedades dependerán de lo representen las variables.
+las propiedades dependerán de lo que representen las variables.
 Por ejemplo, si las variables $a$ y $b$ representan números
 reales, entonces se sabe que $ab = ba$, pero si representan
 matrices, entonces no es cierta la igualdad anterior.
@@ -20,7 +20,7 @@ A continuación veremos varias funciones de Maxima para
 trabajar con expresiones.
 
 La función \maximain{expand} sirve para expresar una
-expresión en sumando realizando todos los productos
+expresión en sumandos realizando todos los productos
 necesarios.
 En el siguiente ejemplo se desarrolla el binomio cúbico
 en sumandos.
