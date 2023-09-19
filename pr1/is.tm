@@ -20,7 +20,7 @@ Hay que tener en cuenta que maxima hace uso del
 cálculo simbólico y considera la igualdad no por
 sus valores sino por sus expresiones.
 Por ejemplo la siguiente ecuación es falsa
-cuando se considera como expresiones.
+cuando se considera como expresión.
 
 %ei is(log(5)-log(7)=log(5/7));
 %do
@@ -28,8 +28,7 @@ cuando se considera como expresiones.
 Aunque realmente la igualdad anterior es cierta
 matemáticamente, ya que los valores de cada
 lado de la igualdad son los mismos.
-A continuación una muestra (no es una prueba
-pero ayuda a verlo).
+A continuación una muestra.
 
 %ei float(log(5)-log(7));
 %do
