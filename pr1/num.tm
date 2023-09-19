@@ -3,7 +3,7 @@
 \section*{Tipos de números}
 
 Como norma general existen dos tipos de números
-en maxima, los valores exactos y los números con
+en Maxima, los valores exactos y los números con
 decimales.
 Por defecto maxima siempre va a trabajar con valores
 o expresiones exactas.
