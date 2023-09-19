@@ -7,10 +7,10 @@ En realidad vamos a usar wxMaxima que es un entorno
 donde se puede ejecutar secuencias paso a paso
 mostrándose el resultado en cada paso.
 Tanto el código de Maxima como el resultado están en
-celdas, así que existen el tipo de celda de entrada
-y el tipo de celda de salida, el primer tipo es código
+celdas, por tanto hay dos tipos de celdas distintas: celda de entrada
+y celda de salida, el primer tipo es código
 que se ejecuta y el segundo es el resultado.
-Además las celdas se van a enumerando automáticamente
+Además las celdas se van enumerando automáticamente
 por {\color{red}\texttt{(\%i1)}}, {\color{red}\texttt{(\%i2)}},
 {\color{red}\texttt{(\%i3)}}, {\color{red}\texttt{(\%i3)}},
 \ldots para las entradas y 
@@ -44,6 +44,7 @@ A continuación mostramos instrucciones acabadas en
 \maximain{\$}.
 
 %ei 2+2$ 2*4; 3+3$
+%c 2*4;
 %do
 
 Una característica importante de Maxima es el manejo de
