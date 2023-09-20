@@ -14,7 +14,7 @@ para varios tipos de funciones.
 
 \item \textbf{Funciones racionales.}
 
-Las funciones raciones son de la forma
+Las funciones racionales son de la forma
 $f(x)=\frac{g(x)}{h(x)}$,
 y su dominio es
 $\dom(f)= \mathbb{R}\setminus

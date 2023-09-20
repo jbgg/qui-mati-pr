@@ -10,7 +10,7 @@ f(x_0)
 + \frac{f'(x_0)}{1!}(x-x_0)
 + \frac{f''(x_0)}{2!}(x-x_0)^2
 + \cdots
-+ \frac{f^{k)}(x_0)}{k!}(x-x_0)^k
++ \frac{f^{k)}(x_0)}{k!}(x-x_0)^k.
 \end{equation*}
 
 El polinomio de Taylor es una aproximación
@@ -45,6 +45,9 @@ Y los polinomios de grado $4,6$ y $8$.
 
 %ei p8:taytorat(taylor(f,x,0,8));
 %do
+
+Finalmente, se grafica la función y los
+polinomios de Taylor calculados anteriormente.
 
 %ei wxplot2d([f,p2,p4,p6,p8],[x,-2,2]);
 %c plot2d([f,p2,p4,p6,p8],[x,-1.5,1.5], [pdf_file, "./tayf.pdf"]);

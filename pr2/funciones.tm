@@ -21,11 +21,11 @@ Por ejemplo se puede evaluar en diferentes valores.
 %do
 
 También se puede definir funciones de más de una variable independiente,
-por ejemplo para definir la función $g(x,y)=x^2+y^2$ se hace los siguiente.
+por ejemplo para definir la función $g(x,y)=x^2+y^2$ se hace lo siguiente.
 
 %ei g(x,y):=x^2+y^2$
 
-Y se usa de la misma manera que las funciones en maxima.
+Y se usa de la misma manera que las funciones en Maxima.
 
 %ei g(2,sqrt(3));
 %do

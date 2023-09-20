@@ -70,7 +70,7 @@ Para el estudio de las asíntotas verticales,
 se tendrá que analizar los posibles valores
 de $x=a$ tal que el límite de $f(x)$ cuando
 $x$ se aproxima a $a$, por la izquierda o
-por la derecha, tiende a $\pm\infty$.
+por la derecha, es a $\pm\infty$.
 
 Para una función racional los posibles valores
 se da donde el denominador se anula, para nuestro
@@ -126,7 +126,7 @@ Lo primero es calcular la derivada.
 %ei df:diff(f,x);
 %do
 
-Para conocer el signo de la derivada se busca
+Para conocer el signo de la derivada se buscan
 los puntos críticos.
 
 %ei solve(df=0,x);
@@ -142,7 +142,7 @@ constante en cada intervalo:
 %do
 
 En este intervalo la derivada es positiva,
-por tanto la función es creciente.
+por tanto la función es creciente en $(-\infty,-2)$.
 
 \item $(-2,0)$.
 
@@ -150,7 +150,7 @@ por tanto la función es creciente.
 %do
 
 En este intervalo la derivada es positiva,
-por tanto la función es creciente.
+por tanto la función es creciente en $(-2,0)$.
 
 \item $(0,2)$.
 
@@ -158,15 +158,15 @@ por tanto la función es creciente.
 %do
 
 En este intervalo la derivada es negativa,
-por tanto la función es decreciente.
+por tanto la función es decreciente en $(0,2)$.
 
-\item $(2,\infty)$.
+\item $(2,+\infty)$.
 
 %ei ev(df,x=3),numer;
 %do
 
 En este intervalo la derivada es negativa,
-por tanto la función es decreciente.
+por tanto la función es decreciente en $(2,+\infty)$.
 
 \end{enumerate}
 
@@ -201,7 +201,7 @@ en cada intervalo del dominio.
 %do
 
 En este intervalo la segunda derivada es positiva,
-por tanto la función es convexa.
+por tanto la función es convexa en $(-\infty,-2)$.
 
 \item $(-2,2)$.
 
@@ -209,15 +209,15 @@ por tanto la función es convexa.
 %do
 
 En este intervalo la segunda derivada es negativa,
-por tanto la función es cóncava.
+por tanto la función es cóncava en $(-2,2)$.
 
-\item $(2,\infty)$.
+\item $(2,+\infty)$.
 
 %ei ev(d2f,x=3),numer;
 %do
 
 En este intervalo la segunda derivada es positiva,
-por tanto la función es convexa.
+por tanto la función es convexa en $(2,+\infty)$.
 
 \end{enumerate}
 

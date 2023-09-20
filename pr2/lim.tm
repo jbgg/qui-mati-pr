@@ -4,14 +4,14 @@
 
 %c f(x):=1/(%e^x-1)$
 
-El cálculo de límites con maxima se realiza de la siguiente forma:
+El cálculo de límites con Maxima se realiza de la siguiente forma:
 \begin{center}
  \maximain{limit(función, x, $\text{x}_\text{0}$)}
 \end{center}
-donde $\mathit{x_0}$ puede ser un número,
+donde $x_0$ puede ser un número,
 $+\infty$ o $-\infty$.
 %
-En maxima $+\infty$ se escribe como
+En Maxima $+\infty$ se escribe como
 \maximain{inf}
 y $-\infty$ como
 \maximain{minf}
@@ -61,7 +61,7 @@ Comprobemos los límites laterales.
 
 Lo anterior es el resultado del límite
 \begin{equation*}
-\lim_{x\to0^-} f(x)
+\lim_{x\to0^-} f(x).
 \end{equation*}
 
 %ei limit(f(x),x,0,plus);
@@ -69,5 +69,5 @@ Lo anterior es el resultado del límite
 
 Lo anterior es el resultado del límite
 \begin{equation*}
-\lim_{x\to0^+} f(x)
+\lim_{x\to0^+} f(x).
 \end{equation*}
